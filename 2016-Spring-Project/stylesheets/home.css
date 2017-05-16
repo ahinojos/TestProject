@@ -1,0 +1,92 @@
+/*
+Home Page CSS
+home.css
+Spring 2016
+Aaron Hinojos
+*/
+
+/* selector {property: value/setting; } */
+
+html{
+	height: 98%;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+body{
+ background-image: url("../images/magpieposter.png");
+ background-size: cover;
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+}
+
+
+header {
+	width: 60%;
+	margin: 5px auto 10px auto;
+	/*  T  R  B  L  */
+	padding-bottom: 10px;
+	text-align: left;
+	float: left
+}
+
+header ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	/*if you do overflow:hidden - it will fix the bar that goes through the header */
+	overflow: hidden;
+}
+
+header ul li {
+	float: left;
+	width: 8%;
+	margin: auto;
+	text-align: center;
+	padding: 0px 30px 0px 40px;
+}
+
+header ul a{
+	color: black;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
+	/*text decoration gets rid of underline*/
+	text-decoration: none;
+	padding: 5px 0px 5px 0px;
+	text-transform: uppercase;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header ul a:hover{
+	color: red;
+}
+
+/*wrapper is prefaced with a "#" or hash-tag because its an ID that we created*/
+#d1{
+	min-height: 100%;
+	position: relative;
+}
+
+#prefooter{
+	padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

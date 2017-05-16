@@ -1,0 +1,183 @@
+/*
+register page style - final project
+register.css
+Spring 2016
+Aaron Hinojos
+*/
+
+/* selector {property: value/setting; } */
+
+html, body {
+	height: 98%;
+	background-color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header {
+	width: 100%;
+	margin: 10px auto 10px auto;
+	/*  T  R  B  L  */
+	padding-bottom: 10px;
+	border-bottom: thin solid white;
+	text-align: center
+}
+
+header ul {
+	margin: 0;
+	list-style: none;
+	/*if you do overflow:hidden - it will fix the bar that goes through the header */
+	overflow: hidden;
+}
+
+header ul li {
+	float: left;
+	width: 8%;
+	margin: auto;
+	text-align: center;
+	padding: 0px 25px 0px 25px;
+}
+
+header ul a{
+	color: pink;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
+	/*text decoration gets rid of underline*/
+	text-decoration: none;
+	padding: 5px 0px 5px 0px;
+	text-transform: uppercase;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header ul a:hover{
+	color: red;
+}
+
+/*wrapper is prefaced with a "#" or hash-tag because its an ID that we created*/
+#d1{
+	min-height: 100%;
+	position: relative;
+}
+
+#main {
+	color: black; 
+	margin: 40px 0px 40px 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#regform{
+	width: 40%;
+	color: fuchsia;
+	margin: auto;
+	font-size: 105%;
+	text-align: center;
+	padding-left: 8px;
+	line-height: 1.9em;
+	border: 2px double HotPink;
+	border-radius: 0px;
+	border-bottom: thin solid white;
+	border-right: thin solid white;
+	box-shadow: 5px 5px 3px 3px rgba(25,75,75,.4);
+}
+
+#fTitle{
+	
+}
+
+/*style elements simply by their name i.e. label*/
+label{
+	width: 11em;
+	float: left;
+	text-align: left;
+	padding-left: 30px;
+}
+
+/*apply style to two elemetns at once*/
+input[type=text], input[type=password], input[type=email]{
+	width: 195px;
+	padding: 2px;
+	padding-left: 3px;
+	border-radius: 9px;
+}
+
+input:not([type=submit]):not([type=checkbox]):not([type=reset]){
+	background:#fff no-repeat top right;
+}
+
+input:not([type=submit]):not([type=checkbox]):required{
+	background-image: url('../images/required.png');
+}
+
+input:not([type=submit]):not([type=checkbox]):valid{
+	background-image: url('../images/valid.png');
+}
+
+input:not([type=submit]):not([type=checkbox]):focus:invalid{
+	background-image: url('../images/invalid.png');
+}
+
+
+select{
+	width: 205px; 
+	height: 25px;
+	border-radius: 9px; 
+}
+
+/*when referencing a class from the index*/
+.submit{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/*when referencing a specific type within a class*/
+.submit input{
+	width: 90px;
+	color: white;
+	font-size: 105%;
+	font-weight: bold;
+	background-color: HotPink;
+	border-radius: 7px;
+}
+
+/*class within the submit class*/
+.reset input{
+	background-color: black;
+}
+
+/*code required to change the big text box*/
+textarea {
+	width: 200px;
+	border-radius: 9px;
+	padding: 2px;
+	background: #fff no-repeat top right;
+}
+
+textarea:required{background-image: url('../images/required.png');}
+textarea:valid{background-image: url('../images/valid.png');}
+textarea:focus:invalid{background-image: url('../images/invalid.png');}
+
+
+#jsmsgs{
+	color: fuchsia;
+	font-size: 80%;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

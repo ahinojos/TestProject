@@ -1,0 +1,120 @@
+/*
+about page css
+about.css
+Spring 2016
+Aaron Hinojos
+*/
+
+/* selector {property: value/setting; } */
+
+html, body {
+	height: 98%;
+	background-color: white;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+header {
+	width: 100%;
+	margin: 10px auto 10px auto;
+	/*  T  R  B  L  */
+	padding-bottom: 10px;
+	border-bottom: thin solid white;
+	text-align: center
+}
+
+header ul {
+	margin: 0;
+	list-style: none;
+	/*if you do overflow:hidden - it will fix the bar that goes through the header */
+	overflow: hidden;
+}
+
+header ul li {
+	float: left;
+	width: 8%;
+	margin: auto;
+	text-align: center;
+	padding: 0px 25px 0px 25px;
+}
+
+header ul a{
+	color: pink;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
+	/*text decoration gets rid of underline*/
+	text-decoration: none;
+	padding: 5px 0px 5px 0px;
+	text-transform: uppercase;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header ul a:hover{
+	color: red;
+}
+
+/*wrapper is prefaced with a "#" or hash-tag because its an ID that we created*/
+#d1{
+	min-height: 100%;
+	position: relative;
+}
+
+#d2, #d3{
+	width: 50%;
+	float: left;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#d3 img{
+	width: 450px;
+	height: 375px;
+}
+
+.pink{color: HotPink;}
+
+#icons{
+	width: 50%;
+	margin: 50px auto auto auto;
+	font-size: 70%;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#icons img{
+	width: 70px;
+	height: 70px;
+}
+
+#i1{
+	float: left;
+	display: inline-block;
+}
+
+#i2{
+	float: right;
+	display: inline-block;
+}
+
+#prefooter{
+	padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
